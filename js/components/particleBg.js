@@ -114,7 +114,7 @@ export default class ParticleBackground {
     const offset = (this.time * 18 + this.scrollY * 0.08) % 160;
     ctx.save();
     ctx.lineWidth = 1;
-    ctx.strokeStyle = 'rgba(37, 99, 235, 0.075)';
+    ctx.strokeStyle = 'rgba(99, 102, 241, 0.075)';
     ctx.beginPath();
     for (let y = -160; y < this.height + 160; y += 160) {
       const yy = y + offset;
@@ -135,8 +135,8 @@ export default class ParticleBackground {
 
     const bg = ctx.createLinearGradient(0, 0, this.width, this.height);
     bg.addColorStop(0, '#ffffff');
-    bg.addColorStop(0.52, '#f7fbff');
-    bg.addColorStop(1, '#fbf8ff');
+    bg.addColorStop(0.48, '#f0f9ff');
+    bg.addColorStop(1, '#f5f3ff');
     ctx.fillStyle = bg;
     ctx.fillRect(0, 0, this.width, this.height);
 
@@ -153,7 +153,7 @@ export default class ParticleBackground {
         const dist = Math.hypot(dx, dy);
         if (dist < maxDist) {
           const alpha = (1 - dist / maxDist) * 0.20;
-          ctx.strokeStyle = `rgba(37, 99, 235, ${alpha})`;
+          ctx.strokeStyle = `rgba(99, 102, 241, ${alpha})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y - this.scrollY * 0.02);
@@ -169,7 +169,7 @@ export default class ParticleBackground {
       if (!n) continue;
       const radius = 18 + ((this.time * 42 + i * 24) % 80);
       const alpha = Math.max(0, 0.16 - radius / 620);
-      ctx.strokeStyle = `rgba(109, 93, 252, ${alpha})`;
+      ctx.strokeStyle = `rgba(236, 72, 153, ${alpha})`;
       ctx.lineWidth = 1.4;
       ctx.beginPath();
       ctx.arc(n.x, n.y, radius, 0, Math.PI * 2);
@@ -180,7 +180,7 @@ export default class ParticleBackground {
     for (const n of this.nodes) {
       const pulse = Math.sin(this.time * 2 + n.phase) * 0.6;
       ctx.beginPath();
-      ctx.fillStyle = n.type === 'core' ? 'rgba(109, 93, 252, 0.72)' : 'rgba(0, 184, 255, 0.54)';
+      ctx.fillStyle = n.type === 'core' ? 'rgba(99, 102, 241, 0.72)' : 'rgba(14, 165, 233, 0.54)';
       ctx.arc(n.x, n.y - this.scrollY * 0.02, n.r + pulse, 0, Math.PI * 2);
       ctx.fill();
       ctx.beginPath();
@@ -200,12 +200,12 @@ export default class ParticleBackground {
       ctx.save();
       ctx.globalAlpha = 0.58;
       ctx.fillStyle = 'rgba(255, 255, 255, 0.72)';
-      ctx.strokeStyle = 'rgba(37, 99, 235, 0.14)';
+      ctx.strokeStyle = 'rgba(99, 102, 241, 0.14)';
       ctx.lineWidth = 1;
       this.roundedRect(ctx, x, y, w, h, 13);
       ctx.fill();
       ctx.stroke();
-      ctx.fillStyle = 'rgba(37, 99, 235, 0.72)';
+      ctx.fillStyle = 'rgba(99, 102, 241, 0.72)';
       ctx.fillText(c.text, x + 11, y + h / 2);
       ctx.restore();
     }

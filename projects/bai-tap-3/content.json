@@ -3,11 +3,11 @@
   "title": "Viết Prompt hiệu quả với AI",
   "subtitle": "Bài tập 2 - Mục 3.4",
   "icon": "🤖",
-  "description": "Báo cáo thực hành: Tối ưu hóa kỹ năng viết Prompt trong học tập với 3 tác vụ và 3 cấp độ Prompt.",
+  "description": "Báo cáo thực hành: Tối ưu hóa kỹ năng viết Prompt trong học tập với 3 tác vụ và 3 cấp độ Prompt khác nhau.",
   "tags": [
     "AI",
     "Prompt Engineering",
-    "LLMs"
+    "Learning"
   ],
   "status": "done",
   "displayMode": "parsed",
@@ -18,124 +18,129 @@
     },
     {
       "type": "text",
-      "content": "<em>Môn học: Nhập môn CNS-AI | Họ tên: Trần Văn Thuyết</em>"
+      "content": "<em>Môn học: Nhập môn CNS-AI | Họ tên: Trần Văn Thuyết | MSSV: 25020414</em>"
     },
     {
       "type": "heading",
-      "content": "I. Lời mở đầu"
-    },
-    {
-      "type": "text",
-      "content": "Trong bối cảnh AI phát triển mạnh mẽ, việc ứng dụng các Mô hình Ngôn ngữ Lớn (LLMs) vào học tập giúp tiết kiệm thời gian và nâng cao hiệu suất tiếp thu kiến thức. Báo cáo này trình bày kết quả thực nghiệm và đánh giá hiệu quả của việc thiết kế Prompt theo các cấp độ khác nhau."
-    },
-    {
-      "type": "heading",
-      "content": "II. Lựa chọn và phân tích tác vụ"
-    },
-    {
-      "type": "text",
-      "content": "3 tác vụ học tập được lựa chọn với độ phức tạp khác nhau:"
+      "content": "I. Lựa chọn và phân tích 3 tác vụ học tập"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "<strong>Tóm tắt tài liệu học thuật</strong> — đòi hỏi chắt lọc thông tin trọng tâm từ văn bản chứa nhiều thuật ngữ chuyên ngành",
-        "<strong>Giải thích khái niệm phức tạp (Blockchain)</strong> — đòi hỏi chuyển hóa ngôn ngữ, sử dụng phép ẩn dụ thực tế",
-        "<strong>Tạo bộ câu hỏi ôn tập (Lịch sử)</strong> — đòi hỏi phân hóa độ khó, định dạng chuẩn xác và lời giải thích chi tiết"
+        "<strong>Tóm tắt tài liệu học thuật</strong>: Rút gọn nội dung dài thành các ý chính.",
+        "<strong>Giải thích khái niệm phức tạp</strong>: Giúp hiểu rõ bản chất vấn đề thông qua các cách tiếp cận đơn giản.",
+        "<strong>Tạo bộ câu hỏi ôn tập</strong>: Thiết lập hệ thống câu hỏi phân hóa để củng cố kiến thức."
       ]
     },
     {
       "type": "heading",
-      "content": "III. Xây dựng Prompt và thử nghiệm"
-    },
-    {
-      "type": "text",
-      "content": "Các Prompt được xây dựng theo <strong>3 cấp độ: Cơ bản, Cải tiến và Nâng cao</strong>."
+      "content": "II. Xây dựng các phiên bản Prompt"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Tác vụ 1: Tóm tắt tài liệu"
+      "content": "1. Tóm tắt tài liệu học thuật"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Cơ bản</strong>: \"Tóm tắt bài viết sau về biến đổi khí hậu: [Nội dung]\"",
-        "<strong>Cải tiến</strong>: \"Hãy tóm tắt bài báo khoa học thành 3 đoạn văn ngắn. Tập trung vào nguyên nhân, hệ quả và giải pháp: [Nội dung]\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai biên tập viên tạp chí khoa học. Tóm tắt bài báo cho độc giả cấp 3. Dạng bullet points. Tối đa 200 từ. Ngôn ngữ thân thiện: [Nội dung]\""
+        "<strong>Prompt cơ bản</strong>: \"Tóm tắt đoạn văn sau.\"",
+        "<strong>Prompt cải tiến</strong>: \"Tóm tắt đoạn văn thành các bullet point, giữ lại các ý chính quan trọng nhất.\"",
+        "<strong>Prompt nâng cao</strong>: \"Hãy đóng vai là một giảng viên đại học. Hãy tóm tắt tài liệu học thuật này dưới dạng các ý chính (bullet points), giải thích ngắn gọn các thuật ngữ phức tạp và đưa ra một ví dụ minh họa thực tế cho nội dung đó.\""
       ]
     },
     {
       "type": "image",
       "src": "assets/img-000.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 1"
+      "caption": "Thử nghiệm Tác vụ 1 với các cấp độ Prompt"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Tác vụ 2: Giải thích Blockchain"
+      "content": "2. Giải thích khái niệm phức tạp"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Cơ bản</strong>: \"Công nghệ Blockchain là gì?\"",
-        "<strong>Cải tiến</strong>: \"Giải thích Blockchain chi tiết và đưa ví dụ minh họa\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai chuyên gia công nghệ. Giải thích cho người mù công nghệ. Suy nghĩ từng bước: 1. Định nghĩa bằng ẩn dụ 2. 3 đặc điểm chính 3. Ví dụ thực tế 4. Tóm tắt 1 câu\""
+        "<strong>Prompt cơ bản</strong>: \"Giải thích khái niệm này.\"",
+        "<strong>Prompt cải tiến</strong>: \"Giải thích khái niệm này một cách đơn giản và đưa ra ví dụ minh họa.\"",
+        "<strong>Prompt nâng cao</strong>: \"Hãy đóng vai là một chuyên gia công nghệ. Hãy giải thích khái niệm này cho một học sinh trung học hiểu. Cấu trúc bài giải thích gồm: 1. Định nghĩa bằng phép ẩn dụ đơn giản, 2. Nêu 3 đặc điểm chính, 3. Đưa ra ví dụ thực tế đời sống, 4. So sánh với một khái niệm quen thuộc khác.\""
       ]
     },
     {
       "type": "image",
       "src": "assets/img-003.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 2"
+      "caption": "Thử nghiệm Tác vụ 2 với các cấp độ Prompt"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Tác vụ 3: Tạo bộ câu hỏi ôn tập Lịch sử"
+      "content": "3. Tạo bộ câu hỏi ôn tập"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Cơ bản</strong>: \"Tạo câu hỏi trắc nghiệm về Lịch sử Việt Nam thế kỷ 20\"",
-        "<strong>Cải tiến</strong>: \"Tạo 5 câu, mỗi câu 4 lựa chọn A-D, cung cấp đáp án\"",
-        "<strong>Nâng cao</strong>: \"Đóng vai giáo viên. 3 câu phân hóa Dễ/Trung bình/Khó. Định dạng: [Mức độ] Câu hỏi... A-D... Đáp án... Giải thích chi tiết\""
+        "<strong>Prompt cơ bản</strong>: \"Tạo câu hỏi ôn tập.\"",
+        "<strong>Prompt cải tiến</strong>: \"Tạo 10 câu hỏi trắc nghiệm kèm theo đáp án đúng.\"",
+        "<strong>Prompt nâng cao</strong>: \"Hãy đóng vai là một giáo viên thiết kế đề thi. Hãy tạo bộ câu hỏi ôn tập gồm các câu hỏi phân hóa theo 3 mức độ: Dễ, Trung bình và Khó. Mỗi mức độ yêu cầu tạo 2 câu hỏi trắc nghiệm (4 lựa chọn A-D). Đối với mỗi câu hỏi, hãy cung cấp đáp án đúng và phần giải thích chi tiết lý do tại sao các đáp án khác lại sai.\""
       ]
     },
     {
       "type": "image",
       "src": "assets/img-006.png",
-      "caption": "Kết quả thử nghiệm Tác vụ 3"
+      "caption": "Thử nghiệm Tác vụ 3 với các cấp độ Prompt"
     },
     {
       "type": "heading",
-      "content": "IV. Phân tích hiệu quả"
+      "content": "III. So sánh kết quả thử nghiệm"
+    },
+    {
+      "type": "text",
+      "content": "Prompt nâng cao cho kết quả tốt nhất do có mục tiêu rõ ràng, định hình vai trò cụ thể cho AI và kiểm soát tốt định dạng đầu ra."
+    },
+    {
+      "type": "text",
+      "content": "<div class='table-container'><table class='premium-table'><thead><tr><th>Loại Prompt</th><th>Chất lượng đầu ra</th><th>Độ rõ ràng</th><th>Độ hữu ích</th></tr></thead><tbody><tr><td><strong>Cơ bản</strong></td><td>Thấp</td><td>Mơ hồ, chung chung</td><td>Thấp, cần chỉnh sửa nhiều</td></tr><tr><td><strong>Cải tiến</strong></td><td>Trung bình</td><td>Khá rõ ràng, có định lượng</td><td>Khá hữu ích, có cấu trúc cơ bản</td></tr><tr><td><strong>Nâng cao</strong></td><td>Cao (Đột phá)</td><td>Rất rõ ràng, chi tiết, chuyên nghiệp</td><td>Rất cao, có thể áp dụng học tập ngay</td></tr></tbody></table></div>"
+    },
+    {
+      "type": "image",
+      "src": "assets/img-008.png",
+      "caption": "Bảng so sánh tổng hợp chất lượng kết quả đầu ra"
+    },
+    {
+      "type": "heading",
+      "content": "IV. Phân tích hiệu quả viết Prompt"
+    },
+    {
+      "type": "text",
+      "content": "Một Prompt chất lượng cao cần đảm bảo 3 yếu tố cốt lõi:<br>• <strong>Mục tiêu rõ ràng</strong>: Xác định chính xác tác vụ cần thực hiện.<br>• <strong>Bối cảnh & Vai trò</strong>: Thiết lập vai chuyên gia (Role-playing) giúp định hình văn phong và chiều sâu kiến thức.<br>• <strong>Định dạng đầu ra</strong>: Yêu cầu cấu trúc cụ thể (bullet points, bảng biểu, phân đoạn) giúp dễ dàng đọc và sử dụng."
+    },
+    {
+      "type": "heading",
+      "content": "V. Nguyên tắc viết Prompt cá nhân"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Prompt Cơ bản</strong>: Kết quả chung chung, lan man, thiếu trọng tâm. Ngôn ngữ mặc định, định dạng lộn xộn.",
-        "<strong>Prompt Cải tiến</strong>: Giới hạn định lượng (\"3 đoạn\", \"5 câu\") giúp cấu trúc tốt hơn đáng kể. Tuy nhiên vẫn thiếu sắc thái phù hợp đối tượng.",
-        "<strong>Prompt Nâng cao</strong>: Kết quả đột phá nhờ kỹ thuật <strong>Role-prompting</strong> (cung cấp \"nhân cách\" cho AI), <strong>Chain-of-Thought</strong> (tư duy từng bước), và <strong>Output Formatting</strong> (kiểm soát cấu trúc đầu ra)."
+        "<strong>Cụ thể hóa yêu cầu</strong>: Tránh các câu lệnh mơ hồ, thêm số lượng hoặc giới hạn từ ngữ.",
+        "<strong>Thiết lập vai trò (Persona)</strong>: Giao vai trò chuyên gia, giảng viên hoặc trợ lý phù hợp với lĩnh vực.",
+        "<strong>Cấu trúc rõ ràng</strong>: Chia nhỏ quy trình xử lý của AI (Chain-of-Thought) hoặc định dạng đầu ra chi tiết.",
+        "<strong>Chia mức độ phân hóa</strong>: Yêu cầu AI phân tích sâu hơn hoặc cung cấp lời giải thích cho các trường hợp cụ thể."
       ]
     },
     {
-      "type": "image",
-      "src": "assets/img-008.png",
-      "caption": "So sánh tổng hợp kết quả 3 cấp độ Prompt"
-    },
-    {
       "type": "heading",
-      "content": "V. Kết luận"
+      "content": "VI. Kết luận"
     },
     {
       "type": "text",
-      "content": "Kỹ thuật Prompt Engineering là kỹ năng không thể thiếu trong kỷ nguyên AI. Việc đầu tư thời gian thiết kế Prompt nâng cao (Role-playing + Chain-of-Thought + Output Formatting) giúp nâng chất lượng đầu ra lên <strong>gấp 3-5 lần</strong> so với Prompt cơ bản, biến AI thành công cụ hỗ trợ học tập thực sự hiệu quả."
+      "content": "Kỹ thuật viết Prompt (Prompt Engineering) là một kỹ năng không thể thiếu trong kỷ nguyên số. Việc đầu tư thời gian thiết kế câu lệnh có cấu trúc giúp nâng cao hiệu suất làm việc cùng AI lên gấp nhiều lần, biến AI thành một người trợ lý học tập đắc lực và đáng tin cậy."
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/15GX4HSjk-8fTXzm-SWLXMAmBtjwVHTJ3/view?usp=drive_link"
+  "driveLink": "https://drive.google.com/file/d/1m8ReCpUl9WAVCudyRDA2dtJVAF49nz-5/view?usp=sharing"
 }

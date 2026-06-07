@@ -1,9 +1,9 @@
 {
   "id": 6,
   "title": "Sử dụng AI có trách nhiệm",
-  "subtitle": "Bài tập 4 - Mục 4.1",
+  "subtitle": "Bài tập 6 - Mục 4.1",
   "icon": "⚖️",
-  "description": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật — nghiên cứu chính sách, thực hành và xây dựng bộ nguyên tắc cá nhân.",
+  "description": "Báo cáo: Sử dụng AI có trách nhiệm trong học tập và nghiên cứu — nghiên cứu chính sách, thực nghiệm viết luận và xây dựng bộ nguyên tắc đạo đức cá nhân.",
   "tags": [
     "AI Ethics",
     "Academic Integrity",
@@ -14,125 +14,146 @@
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo: Sử dụng AI có trách nhiệm và đạo đức trong học thuật"
-    },
-    {
-      "type": "heading",
-      "content": "I. Nghiên cứu chính sách của trường đại học về AI"
+      "content": "Báo cáo: Sử dụng AI có trách nhiệm trong học tập và nghiên cứu"
     },
     {
       "type": "text",
-      "content": "Phân tích dựa trên chính sách tiêu biểu của các trường đại học lớn tại Việt Nam (ĐH RMIT Việt Nam, ĐH Bách Khoa Hà Nội):"
+      "content": "<em>Họ và tên: Trần Văn Thuyết | MSSV: 25020414</em>"
+    },
+    {
+      "type": "heading",
+      "content": "1. Nghiên cứu chính sách của trường về việc sử dụng AI trong học thuật"
+    },
+    {
+      "type": "text",
+      "content": "Trong những năm gần đây, trí tuệ nhân tạo (AI) đã phát triển mạnh mẽ và được ứng dụng rộng rãi trong giáo dục đại học. Nhiều trường đại học tại Việt Nam bắt đầu xây dựng các quy định liên quan đến việc sử dụng AI nhằm đảm bảo tính trung thực học thuật và nâng cao chất lượng học tập.<br><br>Trong bài báo cáo này, tôi tham khảo định hướng sử dụng AI trong học tập của Đại học FPT và RMIT Việt Nam. Các trường này đều cho phép sinh viên sử dụng AI như một công cụ hỗ trợ học tập, nhưng yêu cầu phải minh bạch và có trách nhiệm."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1.1 Những điểm chính trong chính sách sử dụng AI"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "🔧 <strong>Công cụ hỗ trợ, không phải người thay thế</strong>: AI được định nghĩa là công cụ tìm kiếm thông tin, tóm tắt tài liệu, kiểm tra ngữ pháp. Sao chép nguyên văn từ AI bị xử lý như <strong>hành vi đạo văn</strong>.",
-        "📋 <strong>Quy định minh bạch và trích dẫn</strong>: Mọi sự can thiệp của AI phải được khai báo rõ ràng. Sử dụng chuẩn trích dẫn APA 7th edition: ghi rõ nguồn công cụ, phiên bản và mục đích sử dụng.",
-        "💡 <strong>Nhận định cá nhân</strong>: Chính sách thể hiện sự cởi mở — không cấm đoán cực đoan mà hướng tới giáo dục sử dụng công nghệ có đạo đức. Đòi hỏi nâng cao năng lực <strong>tư duy phản biện</strong>."
-      ]
-    },
-    {
-      "type": "heading",
-      "content": "II. Thực hiện nhiệm vụ học tập với AI"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Nhiệm vụ</strong>: Chuẩn bị dàn ý thuyết trình và tóm tắt tài liệu cho chủ đề <em>\"Tác động của AI đối với kỹ năng tư duy phản biện của sinh viên\"</em>."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Bước 1: Prompt đã sử dụng"
-    },
-    {
-      "type": "code",
-      "content": "\"Đóng vai một chuyên gia giáo dục đại học, hãy giúp tôi lập dàn ý\nbài thuyết trình 10 phút về 'Tác động của AI đối với kỹ năng tư duy\nphản biện của sinh viên'. Sau đó, tóm tắt 3 lập luận bảo vệ quan điểm\nrằng AI làm giảm tư duy phản biện nếu lạm dụng.\""
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Bước 2: Đầu ra của AI"
-    },
-    {
-      "type": "text",
-      "content": "AI cung cấp dàn ý 3 phần (Mở bài, Thân bài, Kết luận) và 3 lập luận:"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "Hiệu ứng lười biếng nhận thức (Cognitive laziness)",
-        "Thiếu đa dạng góc nhìn do thuật toán (Filter bubble)",
-        "Nguy cơ tin tưởng mù quáng vào thông tin sai lệch"
+        "<strong>Sinh viên được phép sử dụng AI để hỗ trợ học tập như</strong>: tìm ý tưởng, tóm tắt tài liệu, kiểm tra ngữ pháp, hỗ trợ nghiên cứu, xây dựng dàn ý.",
+        "<strong>Sinh viên không được</strong>: nộp nguyên văn nội dung do AI tạo ra; sử dụng AI trong các bài thi không được cho phép; sử dụng AI để đạo văn hoặc gian lận học thuật; cung cấp thông tin sai lệch do AI tạo ra mà không kiểm chứng.",
+        "<strong>Nhà trường yêu cầu sinh viên</strong>: kiểm tra tính chính xác của nội dung AI; trích dẫn việc sử dụng AI một cách minh bạch; chịu trách nhiệm với nội dung cuối cùng của bài làm."
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 3: Đánh giá và chỉnh sửa"
+      "content": "1.2 Phân tích và nhận xét"
     },
     {
       "type": "text",
-      "content": "Đầu ra có cấu trúc logic nhưng ngôn từ <strong>rập khuôn</strong>. Đã tiến hành:"
+      "content": "Theo tôi, chính sách của các trường đại học hiện nay khá hợp lý vì không cấm hoàn toàn AI mà hướng dẫn sinh viên sử dụng đúng cách. Điều này phù hợp với xu hướng công nghệ hiện đại khi AI đang trở thành một công cụ hỗ trợ học tập phổ biến.<br><br>Việc yêu cầu trích dẫn AI giúp tăng tính minh bạch và trung thực học thuật. Ngoài ra, quy định kiểm tra lại thông tin do AI cung cấp cũng rất cần thiết vì AI đôi khi có thể tạo ra thông tin sai hoặc thiếu chính xác. Tuy nhiên, nhiều trường vẫn chưa quy định cụ thể mức độ được phép sử dụng AI trong từng loại bài tập. Tôi cho rằng trong tương lai, các trường đại học cần xây dựng hướng dẫn chi tiết hơn về cách trích dẫn AI, mức độ sử dụng AI trong từng môn học, và trách nhiệm của sinh viên."
+    },
+    {
+      "type": "heading",
+      "content": "2. Thực hiện nhiệm vụ học tập với sự hỗ trợ của AI"
+    },
+    {
+      "type": "text",
+      "content": "<strong>Nhiệm vụ học tập được lựa chọn</strong>: Tôi sử dụng ChatGPT để hỗ trợ viết bài luận ngắn với chủ đề <em>“Ảnh hưởng của trí tuệ nhân tạo đối với giáo dục đại học”</em>. Mục tiêu của việc sử dụng AI là hỗ trợ xây dựng ý tưởng, tìm cấu trúc bài viết và gợi ý nội dung."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2.1 Các prompt đã sử dụng"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "Loại bỏ lập luận số 2 (quá vĩ mô cho bài thuyết trình 10 phút)",
-        "Bổ sung ví dụ thực tiễn từ môi trường học thuật Việt Nam",
-        "Thay đổi văn phong phù hợp ngữ cảnh trình bày thực tế"
+        "<code>Prompt 1</code>: “Hãy lập dàn ý cho bài luận về ảnh hưởng của trí tuệ nhân tạo đối với giáo dục đại học.”",
+        "<code>Prompt 2</code>: “Hãy phân tích lợi ích và rủi ro của AI trong học tập.”",
+        "<code>Prompt 3</code>: “Hãy cho ví dụ về việc sinh viên sử dụng AI không đúng cách trong học thuật.”"
       ]
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "Bước 4: Tích hợp và trích dẫn"
+      "content": "2.2 Đầu ra của AI"
     },
     {
       "type": "text",
-      "content": "Dùng dàn ý AI làm <strong>khung sườn</strong>, tự viết lại toàn bộ nội dung chi tiết. Trích dẫn minh bạch: <em>\"Bài thuyết trình có sử dụng ChatGPT (GPT-4) để hỗ trợ lên ý tưởng cấu trúc dàn ý ban đầu. (OpenAI, 2024)\"</em>"
+      "content": "AI đã đề xuất cấu trúc bài luận gồm: 1. Mở bài, 2. Lợi ích của AI, 3. Rủi ro và thách thức, 4. Kết luận. Đồng thời đưa ra các nội dung chính: AI giúp cá nhân hóa việc học, hỗ trợ nghiên cứu và xử lý thông tin, giúp tiết kiệm thời gian; nguy cơ phụ thuộc công nghệ, nguy cơ gian lận học thuật, nguy cơ giảm khả năng tư duy độc lập."
     },
     {
       "type": "heading",
-      "content": "III. Phân tích các vấn đề đạo đức"
+      "level": 3,
+      "content": "2.3 Cách đánh giá, chỉnh sửa và tích hợp đầu ra của AI"
+    },
+    {
+      "type": "text",
+      "content": "Tôi không sử dụng nguyên văn toàn bộ nội dung do AI tạo ra mà tiến hành đánh giá và chỉnh sửa trước khi đưa vào bài làm:<br>• <strong>Kiểm tra tính chính xác</strong>: Đối chiếu các thông tin do AI cung cấp với tài liệu học thuật và các nguồn đáng tin cậy trên Internet.<br>• <strong>Chỉnh sửa nội dung</strong>: Viết lại theo văn phong cá nhân, bổ sung ví dụ thực tế, loại bỏ các ý lặp lại và sắp xếp lại bố cục cho hợp lý hơn.<br>• <strong>Tích hợp vào bài viết</strong>: Chỉ sử dụng AI như công cụ hỗ trợ ý tưởng. Nội dung cuối cùng vẫn do tôi tự tổng hợp, phân tích và hoàn thiện."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2.4 Trích dẫn việc sử dụng AI"
+    },
+    {
+      "type": "text",
+      "content": "Trong quá trình thực hiện bài tập, tôi sử dụng công cụ ChatGPT để gợi ý ý tưởng, xây dựng dàn ý, hỗ trợ phân tích vấn đề. Tôi không sao chép nguyên văn nội dung do AI tạo ra mà đã chỉnh sửa và kiểm chứng trước khi sử dụng. Ví dụ trích dẫn: <code>OpenAI. (2026). ChatGPT hỗ trợ xây dựng ý tưởng và phân tích nội dung cho bài luận về AI trong giáo dục.</code>"
+    },
+    {
+      "type": "heading",
+      "content": "3. Phân tích các vấn đề đạo đức liên quan đến việc sử dụng AI trong học thuật"
+    },
+    {
+      "type": "text",
+      "content": "• <strong>3.1 Ranh giới giữa hỗ trợ hợp lý và gian lận học thuật</strong>: Tìm ý tưởng, sửa lỗi ngữ pháp, tóm tắt tài liệu, giải thích kiến thức khó = hỗ trợ hợp lý. Nộp nguyên văn nội dung AI tạo ra, sử dụng AI trong bài thi không được phép, dùng AI để làm toàn bộ bài tập = gian lận. Ranh giới quan trọng nhất là mức độ tham gia và chủ động tư duy của người học.<br><br>• <strong>3.2 Vấn đề quyền sở hữu trí tuệ và trích dẫn</strong>: Nội dung do AI tạo ra thường được tổng hợp từ nhiều nguồn trên Internet. Sử dụng nội dung AI mà không kiểm tra hoặc không trích dẫn có nguy cơ đạo văn rất cao. Việc trích dẫn AI thể hiện tính minh bạch và sự trung thực học thuật.<br><br>• <strong>3.3 Tác động đến quá trình học tập và phát triển kỹ năng</strong>: AI mang lại nhiều lợi ích như tiết kiệm thời gian, tiếp cận kiến thức nhanh. Tuy nhiên, việc lạm dụng AI gây giảm khả năng tư duy phản biện, thui chột kỹ năng nghiên cứu độc lập, tạo tâm lý phụ thuộc hoàn toàn vào công nghệ."
+    },
+    {
+      "type": "heading",
+      "content": "4. Bộ nguyên tắc cá nhân về sử dụng AI có trách nhiệm"
     },
     {
       "type": "list",
       "ordered": true,
       "items": [
-        "<strong>Ranh giới hỗ trợ hợp lý vs. gian lận</strong>: Rà soát lỗi chính tả, gợi ý từ vựng = hỗ trợ hợp lý. Tạo nội dung cốt lõi rồi nộp dưới tư cách cá nhân = gian lận. Gian lận xảy ra khi \"linh hồn\" bài viết không thuộc về người nộp.",
-        "<strong>Quyền sở hữu trí tuệ</strong>: AI được huấn luyện trên dữ liệu có bản quyền. Đầu ra có thể đang \"xào nấu\" ý tưởng người khác mà không ghi nguồn. Nguy cơ vi phạm bản quyền và liêm chính học thuật.",
-        "<strong>Tác động đến phát triển kỹ năng</strong>: Quá trình làm bài tập rèn luyện tư duy logic và giải quyết vấn đề. Lạm dụng AI dẫn đến \"thui chột\" tư duy phản biện, khiến sinh viên tin tưởng mù quáng vào thông tin có sẵn."
+        "Chỉ sử dụng AI như công cụ hỗ trợ học tập, không thay thế hoàn toàn việc tự học.",
+        "Luôn kiểm tra tính chính xác của thông tin do AI cung cấp trước khi sử dụng.",
+        "Không sao chép nguyên văn nội dung do AI tạo ra để nộp bài.",
+        "Minh bạch trong việc trích dẫn và khai báo sử dụng AI.",
+        "Tôn trọng quyền sở hữu trí tuệ và tránh đạo văn.",
+        "Sử dụng AI để phát triển kỹ năng tư duy, nghiên cứu và sáng tạo thay vì phụ thuộc hoàn toàn.",
+        "Tuân thủ các quy định học thuật của nhà trường khi sử dụng AI."
       ]
     },
     {
       "type": "heading",
-      "content": "IV. Bộ 6 nguyên tắc cá nhân"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "🧠 <strong>Tự chủ tư duy</strong>: Luôn tự brainstorm và lập dàn ý thô TRƯỚC khi tham vấn AI",
-        "🔍 <strong>Kiểm chứng thông tin (Fact-check)</strong>: Chịu trách nhiệm hoàn toàn, kiểm chứng chéo mọi dữ liệu từ AI",
-        "📝 <strong>Minh bạch tuyệt đối</strong>: Trung thực khai báo công cụ AI đã sử dụng và mức độ can thiệp",
-        "🔒 <strong>Bảo mật dữ liệu</strong>: Không nhập dữ liệu cá nhân, nghiên cứu chưa công bố vào nền tảng AI",
-        "⚖️ <strong>Quy tắc 80/20</strong>: AI chỉ đóng góp tối đa 20% (cấu trúc, sửa lỗi), 80% giá trị cốt lõi từ năng lực cá nhân",
-        "©️ <strong>Tôn trọng bản quyền</strong>: Chủ động tìm kiếm và trích dẫn bản gốc thay vì sao chép nguồn giả định từ AI"
-      ]
-    },
-    {
-      "type": "heading",
-      "content": "V. Infographic tổng kết"
+      "content": "5. Infographic: “Sử dụng AI có trách nhiệm trong học thuật”"
     },
     {
       "type": "image",
       "src": "assets/img-000.png",
       "caption": "Infographic: Sử dụng AI có trách nhiệm trong học thuật"
+    },
+    {
+      "type": "heading",
+      "content": "6. Kết luận"
+    },
+    {
+      "type": "text",
+      "content": "Trí tuệ nhân tạo đang tạo ra nhiều thay đổi lớn trong giáo dục và nghiên cứu học thuật. AI mang lại nhiều lợi ích như hỗ trợ học tập, tiết kiệm thời gian và tăng khả năng tiếp cận tri thức. Tuy nhiên, việc sử dụng AI cũng đặt ra nhiều vấn đề đạo đức liên quan đến gian lận học thuật, đạo văn và sự phụ thuộc công nghệ. Qua bài báo cáo này, tôi nhận thấy rằng điều quan trọng nhất không phải là cấm hay cho phép AI, mà là cách con người sử dụng AI như thế nào. Nếu được sử dụng đúng cách, AI sẽ trở thành công cụ hỗ trợ học tập hiệu quả và góp phần nâng cao chất lượng giáo dục trong tương lai."
+    },
+    {
+      "type": "heading",
+      "content": "Tài liệu tham khảo"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "OpenAI. ChatGPT. https://chatgpt.com",
+        "Các tài liệu và hướng dẫn học thuật về sử dụng AI trong giáo dục đại học."
+      ]
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1HqgOmmGZVoD0jM04Szv8Hdw19Q-Eaggq/view?usp=drive_link"
+  "driveLink": "https://drive.google.com/file/d/1ai02hRUb0fivkVR9VHzAUi-WzV5tvTeX/view?usp=sharing"
 }

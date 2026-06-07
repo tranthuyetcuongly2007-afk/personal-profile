@@ -3,11 +3,12 @@
   "title": "Công cụ hợp tác trực tuyến",
   "subtitle": "Bài tập 3 - Mục 4.1",
   "icon": "👥",
-  "description": "Báo cáo cá nhân: Ứng dụng công cụ hợp tác trực tuyến (Trello, Google Docs, Drive, Zalo) trong quản lý dự án nhóm.",
+  "description": "Báo cáo cá nhân: Sử dụng công cụ hợp tác trực tuyến trong dự án nhóm (Trello, Google Docs, Google Drive, Discord).",
   "tags": [
     "Collaboration",
     "Trello",
     "Google Workspace",
+    "Discord",
     "Teamwork"
   ],
   "status": "done",
@@ -15,30 +16,75 @@
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo: Ứng dụng công cụ hợp tác trực tuyến trong quản lý dự án nhóm"
-    },
-    {
-      "type": "heading",
-      "content": "I. Lựa chọn và thiết lập công cụ"
+      "content": "Báo cáo: Sử dụng công cụ hợp tác trực tuyến trong dự án nhóm"
     },
     {
       "type": "text",
-      "content": "Để đảm bảo tiến độ và chất lượng dự án nhóm, 4 công cụ đã được thiết lập đồng bộ, tạo thành không gian làm việc tối ưu:"
+      "content": "<em>Họ và tên: Trần Văn Thuyết | Mã lớp: [VNU1001_E252016] Nhập môn CNS&AI | MSSV: 25020414</em>"
+    },
+    {
+      "type": "heading",
+      "content": "I. Các công cụ đã sử dụng"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Công cụ quản lý dự án: Trello"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "🗂️ <strong>Quản lý dự án: Trello</strong> — Tất cả thẻ nhiệm vụ (Card) được gắn link tài liệu tương ứng từ Google Drive",
-        "📝 <strong>Soạn thảo cộng tác: Google Docs</strong> — Cùng nhau viết kịch bản và báo cáo real-time",
-        "☁️ <strong>Lưu trữ tệp tin: Google Drive</strong> — Nơi tập trung toàn bộ tài nguyên dự án",
-        "💬 <strong>Giao tiếp: Zalo/Slack</strong> — Kênh trao đổi thông tin nhanh hàng ngày"
+        "Tạo bảng (board) quản lý công việc và phân chia nhiệm vụ cho nhóm.",
+        "Thiết lập các danh sách trạng thái trực quan: To do – In progress – Done.",
+        "Tạo và cập nhật các task cá nhân có mô tả rõ ràng cùng deadline cụ thể.",
+        "Sử dụng nhãn (label) màu để phân loại mức độ ưu tiên công việc.",
+        "Theo dõi và rà soát tiến độ hoàn thành công việc hàng ngày."
       ]
     },
     {
-      "type": "image",
-      "src": "assets/img-000.png",
-      "caption": "Bảng Trello quản lý dự án nhóm"
+      "type": "heading",
+      "level": 3,
+      "content": "2. Công cụ soạn thảo tài liệu: Google Docs"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Soạn thảo trực tuyến nội dung phân tích và nội dung báo cáo chung của nhóm.",
+        "Trực tiếp chỉnh sửa, định dạng và hoàn thiện các phần bài làm cá nhân.",
+        "Sử dụng công cụ comment (bình luận) để thảo luận, góp ý kiến sửa đổi.",
+        "Theo dõi lịch sử chỉnh sửa (version history) để rà soát đóng góp của từng thành viên."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3. Công cụ lưu trữ dữ liệu: Google Drive"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Tạo thư mục dùng chung của dự án để tập hợp tài nguyên.",
+        "Phân chia thư mục theo từng module công việc logic (Tài liệu tham khảo, Slide, Báo cáo).",
+        "Thống nhất quy tắc đặt tên tệp tin khoa học.",
+        "Cấu hình quyền truy cập (view/edit) phù hợp cho từng thành viên và giảng viên."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "4. Công cụ giao tiếp trực tuyến: Discord"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Thiết lập kênh chat để trao đổi thông tin nhanh chóng giữa các thành viên.",
+        "Tổ chức các buổi họp nhóm online qua Voice Channel để chốt ý tưởng.",
+        "Chủ động đặt câu hỏi trao đổi chuyên môn và hỗ trợ các thành viên khác khi cần."
+      ]
     },
     {
       "type": "heading",
@@ -47,93 +93,182 @@
     {
       "type": "heading",
       "level": 3,
-      "content": "1. Quản lý tác vụ với Trello"
+      "content": "1. Quản lý nhiệm vụ"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Tôi chủ động nhận và theo dõi các thẻ nhiệm vụ được giao trên Trello.",
+        "Thực hiện cập nhật trạng thái công việc cá nhân ít nhất 1 lần/ngày.",
+        "Đảm bảo hoàn thành 100% nhiệm vụ được phân công đúng hạn."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2. Đóng góp nội dung"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Trực tiếp soạn thảo và hiệu đính các phần tài liệu trên file Google Docs chung.",
+        "Xem xét và chỉnh sửa các nội dung nhiều lần để tối ưu hóa chất lượng bài viết.",
+        "Đóng góp ý kiến phản biện khoa học thông qua tính năng bình luận."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3. Tương tác và làm việc nhóm"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Duy trì tương tác cao trên Discord (trên 10 lượt trao đổi/tuần).",
+        "Chủ động đưa ra thảo luận các vướng mắc kỹ thuật để nhóm cùng tháo gỡ.",
+        "Đề xuất các giải pháp nâng cao hiệu suất cộng tác của cả đội."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "4. Quản lý tài nguyên cá nhân"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Sắp xếp tài nguyên cá nhân trên Google Drive thành cấu trúc nhiều cấp ngăn nắp.",
+        "Đặt tên tệp tin theo quy chuẩn thống nhất: <code>[Tên dự án] - [Tên phần] - [Người thực hiện]</code>.",
+        "Thiết lập phân quyền chia sẻ tệp tin an toàn, khoa học."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "III. Đánh giá hiệu quả sử dụng công cụ"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Ưu điểm"
     },
     {
       "type": "text",
-      "content": "Áp dụng mô hình <strong>Kanban</strong> của Trello (To-do → Doing → Done), bức tranh tổng thể dự án trở nên rõ ràng. Mỗi Card được gắn tên người phụ trách, deadline, mô tả chi tiết. Tính năng <strong>Checklist</strong> giúp \"chẻ nhỏ\" nhiệm vụ lớn thành bước nhỏ, giảm áp lực và khoa học hơn. Cá nhân chủ động cập nhật tiến độ ít nhất <strong>3 lần/tuần</strong>."
+      "content": "Nhờ sự phối hợp đồng bộ giữa Trello (quản lý trực quan), Google Docs (soạn thảo song song), Google Drive (lưu trữ tập trung) và Discord (giao tiếp thời gian thực), hiệu suất làm việc nhóm được nâng cao rõ rệt, giảm thiểu tối đa tình trạng bỏ sót nhiệm vụ và tăng tính minh bạch trong nhóm."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "2. Nhược điểm và hạn chế"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "Đôi khi bị phân tâm hoặc quá tải thông báo từ nhiều nền tảng cùng lúc.",
+        "Yêu cầu các thành viên phải tự giác cập nhật tiến độ đều đặn thì hệ thống mới hoạt động hiệu quả."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "IV. Thách thức và cách giải quyết"
+    },
+    {
+      "type": "text",
+      "content": "• <strong>Thách thức 1: Thiếu đồng bộ thông tin</strong><br><em>Vấn đề</em>: Một số thành viên quên cập nhật trạng thái trên Trello.<br><em>Giải pháp</em>: Đặt lịch nhắc nhở rà soát công việc chung vào cuối ngày trên nhóm Discord để hình thành thói quen.<br><br>• <strong>Thách thức 2: Khó theo dõi nhiều công cụ cùng lúc</strong><br><em>Vấn đề</em>: Mất thời gian chuyển đổi liên tục giữa các ứng dụng.<br><em>Giải pháp</em>: Liên kết (hyperlink) chéo các tài liệu liên quan trực tiếp vào các thẻ Trello tương ứng để tạo lối tắt truy cập nhanh.<br><br>• <strong>Thách thức 3: Khác biệt trong phong cách làm việc</strong><br><em>Vấn đề</em>: Mỗi thành viên có thói quen sử dụng công cụ khác nhau.<br><em>Giải pháp</em>: Thống nhất một bộ quy tắc cộng tác chung (rules) ngay từ cuộc họp khởi động dự án."
+    },
+    {
+      "type": "heading",
+      "content": "V. Minh chứng làm việc nhóm thực tế"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "1. Bảng quản lý dự án trên Trello"
     },
     {
       "type": "image",
-      "src": "assets/img-001.png",
-      "caption": "Chi tiết Card và Checklist trên Trello"
+      "src": "assets/Picture1.png",
+      "caption": "Bảng Trello phân công nhiệm vụ và quản lý tiến độ dự án"
     },
     {
       "type": "heading",
       "level": 3,
-      "content": "2. Tương tác và giao tiếp nhóm"
+      "content": "2. Soạn thảo tài liệu và cộng tác trên Google Docs"
     },
     {
       "type": "text",
-      "content": "Sự chuyên nghiệp không nằm ở công cụ đắt tiền, mà nằm ở việc xóa bỏ sự mơ hồ cho đồng đội. Duy trì hơn <strong>10 lượt tương tác hỗ trợ/tuần</strong> bằng cách tối ưu hóa \"tín hiệu phản hồi\": một emoji hoặc dòng \"Mình đã nhận\" tạo sự an tâm; hồi đáp kèm hẹn cụ thể (\"Mình sẽ phản hồi trước 14h chiều nay\")."
+      "content": "Lịch sử chỉnh sửa chi tiết và các ý kiến đóng góp thông qua bình luận trên Google Docs:"
     },
     {
       "type": "image",
-      "src": "assets/img-002.png",
-      "caption": "Giao tiếp nhóm qua tin nhắn"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3. Quản lý tài nguyên và soạn thảo"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Google Drive</strong>: Hệ thống thư mục logic 2 cấp — Thư mục gốc → Thư mục con [Tài liệu tham khảo], [Bản nháp], [Sản phẩm Final]. 100% tệp tin đặt tên theo quy chuẩn: <code>[Ngày]_[Tên nội dung]_[Tên người]</code>."
-    },
-    {
-      "type": "text",
-      "content": "<strong>Google Docs</strong>: Soạn thảo cộng tác trực tiếp, quyền truy cập \"View\" cho giảng viên và \"Edit\" cho thành viên nhóm."
+      "src": "assets/Picture2.png",
+      "caption": "Nội dung soạn thảo và lịch sử phiên bản trên Google Docs"
     },
     {
       "type": "image",
-      "src": "assets/img-004.png",
-      "caption": "Cấu trúc Google Drive và Google Docs"
-    },
-    {
-      "type": "heading",
-      "content": "III. Phân tích 3 Thách thức & 3 Giải pháp"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Thách thức 1: Quên cập nhật tiến độ"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Vấn đề</strong>: Thành viên chưa quen nên quên kéo thả thẻ Trello, bảng không phản ánh đúng thực tế.<br><strong>Giải pháp</strong>: Chủ động đóng vai \"nhắc nhở\" — nhắn tin nhóm mỗi cuối ngày để rà soát Trello, hình thành thói quen cho cả nhóm."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Thách thức 2: Tranh luận kéo dài qua chat"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Vấn đề</strong>: Nội dung phức tạp (thống nhất ý tưởng kịch bản) chat qua lại rất lâu mà không chốt được.<br><strong>Giải pháp</strong>: \"Ngừng gõ phím, nhấc máy lên\" — nếu chat giằng co quá 5 phút, chủ động đề xuất gọi Google Meet hoặc Zalo Call để chốt."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "Thách thức 3: Lộn xộn khi ghép bài"
-    },
-    {
-      "type": "text",
-      "content": "<strong>Vấn đề</strong>: Mỗi người làm file Word riêng rồi gửi vào nhóm, người tổng hợp bị quá tải, không biết đâu là file mới nhất.<br><strong>Giải pháp</strong>: Chuyển toàn bộ lên <strong>một file Google Docs duy nhất</strong>. Soạn thảo real-time, dùng Comment góp ý trực tiếp thay vì nhắn tin bên ngoài."
+      "src": "assets/Picture3.png",
+      "caption": "Tính năng đóng góp ý kiến thông qua Comment trên Google Docs"
     },
     {
       "type": "image",
-      "src": "assets/img-005.png",
-      "caption": "Minh chứng làm việc nhóm thực tế"
+      "src": "assets/Picture4.png",
+      "caption": "Kiểm tra đóng góp cá nhân thông qua lịch sử chỉnh sửa chi tiết"
     },
     {
       "type": "heading",
-      "content": "IV. Kết luận"
+      "level": 3,
+      "content": "3. Tổ chức lưu trữ dữ liệu khoa học trên Google Drive"
     },
     {
       "type": "text",
-      "content": "Nếu khai thác đúng cách và duy trì kỷ luật cập nhật hàng ngày, các công cụ trực tuyến không chỉ giúp dự án về đích trơn tru mà còn rèn luyện kỹ năng quản lý thời gian hiệu quả. Quá trình này đã giúp chuyển đổi thành công từ cách làm việc <strong>\"bản năng\"</strong> sang <strong>có hệ thống và chuyên nghiệp</strong>."
+      "content": "Các thư mục được phân chia logic theo module và đặt tên tệp tin theo quy chuẩn thống nhất:"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture5.png",
+      "caption": "Cấu trúc thư mục dự án dùng chung trên Google Drive"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture6.png",
+      "caption": "Phân chia thư mục con theo module rõ ràng"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture7.png",
+      "caption": "Đặt tên tệp tin theo đúng định dạng thống nhất"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "4. Trao đổi thông tin và thảo luận nhóm trên Discord"
+    },
+    {
+      "type": "text",
+      "content": "Kênh giao tiếp thời gian thực, nơi thảo luận các vấn đề kỹ thuật và hỗ trợ đồng đội:"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture8.png",
+      "caption": "Kênh chat thảo luận và phân chia nhiệm vụ trên Discord"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture9.png",
+      "caption": "Tương tác và hỗ trợ giải quyết khó khăn giữa các thành viên"
+    },
+    {
+      "type": "heading",
+      "content": "VI. Kết luận"
+    },
+    {
+      "type": "text",
+      "content": "Sử dụng các công cụ cộng tác trực tuyến một cách bài bản không chỉ giúp dự án nhóm hoàn thành trôi chảy, đúng hạn mà còn rèn luyện tư duy quản lý thời gian và kỹ năng phối hợp công việc chuyên nghiệp — những hành trang cực kỳ cần thiết cho công việc thực tế trong kỷ nguyên số."
     }
   ],
-  "driveLink": "https://docs.google.com/document/d/1gt6uut9Ab_0ls8yka3rL0Dd0j6ZTitLg/edit?usp=drive_link&ouid=113263704849168601667&rtpof=true&sd=true"
+  "driveLink": "https://drive.google.com/file/d/1371QcbsGLdZeSHzVVtITG7Zyw7YqMz95/view?usp=sharing"
 }

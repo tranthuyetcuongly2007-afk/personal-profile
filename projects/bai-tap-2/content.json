@@ -3,109 +3,120 @@
   "title": "Tìm kiếm & đánh giá thông tin",
   "subtitle": "Bài tập 2 - Mục 3.4",
   "icon": "🔍",
-  "description": "Báo cáo nghiên cứu: Phân tích thực trạng chuyển đổi số tại doanh nghiệp vừa và nhỏ (SMEs) ở Hà Nội và đánh giá hệ thống tài liệu học thuật.",
+  "description": "Báo cáo nghiên cứu: Đánh giá hiệu quả của phương pháp Học máy liên kết (Federated Learning) trong việc bảo vệ quyền riêng tư của dữ liệu y tế.",
   "tags": [
     "Research",
-    "Critical Thinking",
-    "Academic"
+    "Federated Learning",
+    "Privacy",
+    "Healthcare"
   ],
   "status": "done",
   "displayMode": "parsed",
   "sections": [
     {
       "type": "heading",
-      "content": "Báo cáo Nghiên cứu: Chuyển đổi số tại SMEs ở Hà Nội"
+      "content": "Báo cáo: Đánh giá hiệu quả của phương pháp Học máy liên kết (Federated Learning) trong bảo vệ quyền riêng tư dữ liệu y tế"
     },
     {
       "type": "text",
-      "content": "Báo cáo này phân tích thực trạng chuyển đổi số tại các Doanh nghiệp Vừa và Nhỏ (SMEs) trên địa bàn Thủ đô Hà Nội, đồng thời đánh giá độ tin cậy của hệ thống tài liệu học thuật được sử dụng."
+      "content": "<em>Họ tên: Trần Văn Thuyết | MSSV: 25020414</em>"
     },
     {
       "type": "heading",
-      "content": "1. Cơ sở lựa chọn chủ đề"
+      "content": "1. Đặt vấn đề"
     },
     {
       "type": "text",
-      "content": "Trong bối cảnh Cách mạng Công nghiệp 4.0, chuyển đổi số (Digital Transformation) đã trở thành hệ hình quản trị mang tính sống còn. Đối với lực lượng SMEs — xương sống của nền kinh tế Việt Nam — sự thích ứng với kỷ nguyên số là điều kiện tiên quyết để duy trì lợi thế cạnh tranh."
-    },
-    {
-      "type": "text",
-      "content": "Chủ đề nghiên cứu: <strong>\"Động lực, Tác động và Rào cản trong tiến trình Chuyển đổi số tại các SMEs trên địa bàn Thủ đô Hà Nội\"</strong>. Nghiên cứu khoanh vùng tại Hà Nội — trung tâm đổi mới sáng tạo, nơi chịu áp lực kép từ đô thị hóa nhanh và yêu cầu tái cấu trúc mô hình tăng trưởng dựa trên Big Data và AI."
+      "content": "Trong kỷ nguyên số, Trí tuệ nhân tạo (AI) đang tạo ra những bước đột phá mạnh mẽ trong chẩn đoán và điều trị y tế. Tuy nhiên, rào cản lớn nhất của việc ứng dụng AI trong y tế là \"nút thắt\" về dữ liệu. Các mô hình học sâu (Deep Learning) cần một lượng dữ liệu khổng lồ để huấn luyện, trong khi hồ sơ bệnh án và hình ảnh y tế lại là thông tin nhạy cảm, chịu sự ràng buộc nghiêm ngặt của các quy định bảo vệ quyền riêng tư như HIPAA (Mỹ) hay GDPR (Châu Âu).<br><br>Để giải quyết mâu thuẫn này, phương pháp Học máy liên kết (Federated Learning - FL) đã ra đời. FL cho phép huấn luyện các thuật toán AI trên nhiều thiết bị hoặc cơ sở y tế phân tán mà không cần trao đổi dữ liệu gốc. Nhận thấy đây là một xu hướng công nghệ mang tính đột phá và đầy thách thức trong ngành Công nghệ Thông tin, báo cáo này được thực hiện nhằm tìm kiếm, tổng hợp và đánh giá độ tin cậy của các tài liệu nghiên cứu về hiệu quả của FL trong việc bảo vệ quyền riêng tư dữ liệu y tế."
     },
     {
       "type": "heading",
-      "content": "2. Chiến lược tìm kiếm tài liệu"
+      "content": "2. Chiến lược tìm kiếm thông tin"
     },
     {
       "type": "text",
-      "content": "Chiến lược tìm kiếm toàn diện khai thác 4 nhóm nguồn tài liệu theo chuẩn mực học thuật quốc tế:"
-    },
-    {
-      "type": "list",
-      "ordered": true,
-      "items": [
-        "<strong>Cơ sở dữ liệu học thuật</strong>: Google Scholar, Microsoft Academic, ResearchGate — sử dụng toán tử Boolean (\"digital transformation\" AND \"SMEs\" AND \"Hanoi\")",
-        "<strong>Tạp chí khoa học chuyên ngành</strong>: IJAAS, Decision Science Letters, Tạp chí Kinh tế và Dự báo, Tạp chí Công Thương",
-        "<strong>Sách chuyên khảo</strong>: NXB Chính trị quốc gia Sự thật, NXB Đại học Quốc gia Hà Nội",
-        "<strong>Nguồn mở Internet</strong>: Cổng thông tin Chuyển đổi số Hà Nội (.gov.vn), báo cáo của Cục Phát triển Doanh nghiệp (MPI) phối hợp GIZ"
-      ]
-    },
-    {
-      "type": "text",
-      "content": "Tổng cộng hơn <strong>12 tài liệu tham khảo chất lượng cao</strong> đã được thu thập, trong đó có 6 bài báo khoa học có quy trình bình duyệt (peer-review) nghiêm ngặt."
-    },
-    {
-      "type": "heading",
-      "content": "3. Tổng quan tài liệu"
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.1. Nền tảng lý thuyết"
-    },
-    {
-      "type": "text",
-      "content": "Quá trình chuyển đổi số được kiến tạo thông qua các cơ chế nhận thức phức tạp, dựa trên <strong>Thuyết Hành vi Có kế hoạch (TPB)</strong>. Khảo sát trên 456 SMEs tại Hà Nội chỉ ra rằng quá trình số hóa bị chi phối bởi chuỗi 6 nhân tố, trong đó nhận thức về sự hữu ích (Perceived Usefulness) và điều kiện thuận lợi (Facilitating Conditions) là yếu tố quyết định."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.2. Tác động lên hiệu suất doanh nghiệp"
-    },
-    {
-      "type": "text",
-      "content": "Nghiên cứu định lượng trên 351 SMEs sử dụng mô hình SEM cho thấy: chuyển đổi số cải thiện hiệu quả sản xuất (β=0.35), tăng năng lực cạnh tranh (β=0.28), giảm chi phí vận hành thông qua tự động hóa. Ngành sản xuất được hưởng lợi nhiều nhất so với ngành dịch vụ."
-    },
-    {
-      "type": "heading",
-      "level": 3,
-      "content": "3.3. Thực trạng rào cản tại Hà Nội"
-    },
-    {
-      "type": "text",
-      "content": "Theo khảo sát trên 500 SMEs toàn quốc, chỉ <strong>25%</strong> doanh nghiệp sẵn sàng chuyển đổi số thực sự. Tại Hà Nội, <strong>45%</strong> SMEs có ngân sách nhưng không đáp ứng đủ nhu cầu triển khai, và <strong>20%</strong> không có bất kỳ khoản ngân sách nào dành cho chuyển đổi số."
-    },
-    {
-      "type": "heading",
-      "content": "4. Đánh giá độ tin cậy nguồn tài liệu"
-    },
-    {
-      "type": "text",
-      "content": "Toàn bộ 12 nguồn tài liệu được thẩm định theo 5 tiêu chí: <strong>Tác giả, Cơ quan xuất bản, Phương pháp nghiên cứu, Trích dẫn và Tính cập nhật</strong>."
+      "content": "Để thu thập thông tin một cách toàn diện và khoa học, tôi đã áp dụng chiến lược tìm kiếm đa nguồn với các bước cụ thể như sau:"
     },
     {
       "type": "list",
       "ordered": false,
       "items": [
-        "<strong>Bài báo khoa học định lượng</strong>: Ưu điểm — tính nhân quả chính xác, độ tin cậy thống kê cao (SEM, SmartPLS 4, SPSS). Nhược điểm — đôi khi bỏ qua rào cản vi mô.",
-        "<strong>Sách chuyên khảo</strong>: Ưu điểm — tầm nhìn chiến lược, hệ thống hóa lý luận chuẩn mực. Nhược điểm — chu kỳ xuất bản dài, minh chứng công nghệ có thể lạc hậu nhanh.",
-        "<strong>Báo cáo vĩ mô/Công quyền</strong>: Ưu điểm — tính ứng dụng tức thì, quy mô mẫu lớn. Nhược điểm — thiếu quy trình peer-review học thuật."
+        "<strong>Xác định từ khóa</strong>: Nhằm thu hẹp phạm vi tìm kiếm đúng vào ngách đề tài, các cụm từ khóa tiếng Anh học thuật đã được sử dụng kết hợp với toán tử Boolean: <code>(\"Federated learning\" OR \"Collaborative learning\") AND (\"healthcare\" OR \"medical imaging\" OR \"electronic health records\") AND (\"privacy\" OR \"security\")</code>.",
+        "<strong>Lựa chọn nguồn tìm kiếm</strong>: Khai thác các bài báo khoa học chất lượng cao (Q1, Q2) thông qua IEEE Xplore, ScienceDirect (Elsevier) và ACM Digital Library. Sử dụng Google Books để tìm sách chuyên khảo và các blog công nghệ uy tín của Google, IBM, NVIDIA.",
+        "<strong>Tiêu chí chọn lọc</strong>: Ưu tiên các tài liệu xuất bản trong vòng 6 năm gần đây (2018 đến nay) và các bài báo khoa học đã qua quá trình phản biện độc lập (peer-reviewed)."
       ]
     },
     {
+      "type": "heading",
+      "content": "3. Tổng quan và đánh giá nguồn tài liệu"
+    },
+    {
       "type": "text",
-      "content": "Điểm sáng: <strong>90%</strong> tài liệu tham khảo được xuất bản trong giai đoạn 2024-2026, đảm bảo tính cập nhật cao nhất. Sự kết hợp cả ba nhóm nguồn tạo hiệu ứng bù trừ hoàn hảo cho nghiên cứu."
+      "content": "Qua quá trình tìm kiếm, tôi đã chọn lọc được 10 tài liệu có độ tin cậy từ cao đến rất cao, bao gồm 5 bài báo khoa học trên các tạp chí hàng đầu (Nature, Elsevier, ACM), 2 sách chuyên khảo và 3 bài viết từ các tổ chức công nghệ uy tín."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.1. Đánh giá nhóm Bài báo khoa học"
+    },
+    {
+      "type": "text",
+      "content": "Đây là nguồn tài liệu mang tính học thuật và thực nghiệm cao nhất. Bài đánh giá của Rieke et al. (2020) trên <em>NPJ Digital Medicine</em> và báo cáo của Kaissis et al. (2020) trên <em>Nature Machine Intelligence</em> cung cấp kiến thức nền tảng về kiến trúc FL kết hợp với bảo mật vi phân. Để bù đắp nhược điểm thiên về lý thuyết vĩ mô, nghiên cứu của Sheller et al. (2020) và Brisimi et al. (2018) cung cấp số liệu thực nghiệm thực tế khi chạy mô hình FL trên ảnh MRI não và bệnh án điện tử (EHR), chứng minh FL đạt hiệu suất tiệm cận phương pháp học tập trung."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.2. Đánh giá nguồn Sách chuyên khảo"
+    },
+    {
+      "type": "text",
+      "content": "Hai cuốn sách chuyên khảo của Yang et al. (2020) và Bohr & Memarzadeh (2020) cung cấp các khái niệm toán học cốt lõi và định hướng ứng dụng AI trong y tế. Tuy nhiên, hạn chế lớn nhất của sách chuyên khảo là chu kỳ xuất bản kéo dài, nên tính cập nhật công nghệ không nhanh nhạy bằng các bài báo hội nghị."
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "3.3. Đánh giá nguồn Internet"
+    },
+    {
+      "type": "text",
+      "content": "Các tài liệu thực tiễn từ blog công nghệ của Google, IBM và NVIDIA Clara cho thấy cách thương mại hóa và triển khai thực tế hệ thống FL trong y tế. Ưu điểm là tính thực tế cao, nắm bắt sát sườn nhu cầu thị trường, nhưng nhược điểm là có thể bị ảnh hưởng (bias) do mang tính chất quảng bá cho sản phẩm của tập đoàn đó."
+    },
+    {
+      "type": "heading",
+      "content": "4. Kết luận"
+    },
+    {
+      "type": "text",
+      "content": "Qua quá trình tìm kiếm và đánh giá tài liệu, có thể khẳng định Học máy liên kết (Federated Learning) là một giải pháp kỹ thuật ưu việt, giải quyết trọn vẹn bài toán khó khăn nhất của Y tế số: khai thác sức mạnh của dữ liệu lớn để huấn luyện AI mà không vi phạm quyền riêng tư của bệnh nhân. Bên cạnh kiến thức chuyên môn, kỹ năng xây dựng truy vấn nâng cao và tư duy phản biện để đánh giá tài liệu đã được cải thiện rõ rệt."
+    },
+    {
+      "type": "heading",
+      "content": "5. Danh mục tài liệu tham khảo (Harvard)"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "Bohr, A. và Memarzadeh, K. eds., 2020. <em>Artificial Intelligence in healthcare</em>. Academic Press.",
+        "Brisimi, T.S., Chen, R., Mela, T., Olshevsky, A., Paschalidis, I.C. và Shi, W., 2018. Federated learning of predictive models from federated Electronic Health Records. <em>International journal of medical informatics</em>, 112, pp.59-67.",
+        "Google AI Blog, 2017. <em>Federated Learning: Collaborative Machine Learning without Centralized Training Data</em>. [online] Available at: &lt;https://ai.googleblog.com/&gt; [Accessed 22 March 2026].",
+        "IBM, 2023. <em>What is federated learning?</em>. [online] Available at: &lt;https://www.ibm.com/topics/federated-learning&gt; [Accessed 22 March 2026].",
+        "Kaissis, G.A., Makowski, M.R., Rückert, D. và Braren, R.F., 2020. Secure, privacy-preserving and federated machine learning in medical imaging. <em>Nature Machine Intelligence</em>, 2(6), pp.305-311.",
+        "Nguyen, D.C., Pham, Q.V., Pathirana, P.N., Ding, M., Seneviratne, A., Lin, Z., Dobre, O.A. và Hwang, W.J., 2022. Federated learning for smart healthcare: A survey. <em>ACM Computing Surveys (CSUR)</em>, 55(3), pp.1-37.",
+        "NVIDIA, 2021. <em>NVIDIA Clara Federated Learning</em>. [online] Available at: &lt;https://developer.nvidia.com/clara&gt; [Accessed 22 March 2026].",
+        "Rieke, N., Hancox, J., Li, W., Milletari, F., Roth, H.R., Albarqouni, S., Bakas, S., Galtier, M.N., Landman, B.A., Maier-Hein, K. và Ourselin, S., 2020. The future of digital health with federated learning. <em>NPJ digital medicine</em>, 3(1), pp.1-7.",
+        "Sheller, M.J., Reina, G.A., Edwards, B., Martin, J. và Bakas, S., 2020. Federated learning in medicine: facilitating multi-institutional collaborations without sharing patient data. <em>Scientific reports</em>, 10(1), pp.1-12.",
+        "Yang, Q., Liu, Y., Chen, T. và Tong, Y., 2020. <em>Federated learning</em>. Synthesis Lectures on Artificial Intelligence and Machine Learning, 13(3), pp.1-207. Morgan & Claypool Publishers."
+      ]
+    },
+    {
+      "type": "heading",
+      "content": "6. Bảng tổng hợp đánh giá nguồn tài liệu"
+    },
+    {
+      "type": "text",
+      "content": "<div class='table-container'><table class='premium-table'><thead><tr><th>STT</th><th>Tên tài liệu / Tác giả</th><th>Loại nguồn</th><th>Đánh giá 5 tiêu chí</th><th>Phân tích Ưu / Nhược điểm</th><th>Độ tin cậy</th></tr></thead><tbody><tr><td>1</td><td><strong>Rieke et al. (2020)</strong><br>The future of digital health with federated learning</td><td>Tạp chí khoa học</td><td>- Tác giả: Chuyên gia AI y tế từ NVIDIA & ĐH lớn.<br>- Cơ quan XB: NPJ Digital Medicine (Nature - Q1).<br>- PP: Tổng quan kiến trúc hệ thống.<br>- Trích dẫn: &gt;1000 lượt.<br>- Cập nhật: 2020, mang tính nền tảng.</td><td><strong>Ưu điểm</strong>: Cung cấp cái nhìn toàn cảnh uy tín về rào cản ứng dụng FL vào y tế số.<br><strong>Nhược điểm</strong>: Thiếu các số liệu đánh giá bằng thực nghiệm lâm sàng chi tiết.</td><td><strong>Rất cao (5/5)</strong></td></tr><tr><td>2</td><td><strong>Sheller et al. (2020)</strong><br>Federated learning in medicine: multi-institutional...</td><td>Tạp chí khoa học</td><td>- Tác giả: Chuyên gia ĐH Pennsylvania.<br>- Cơ quan XB: Scientific Reports (Nature - Q1).<br>- PP: Thực nghiệm trên ảnh MRI khối u não.<br>- Trích dẫn: Cao.<br>- Cập nhật: 2020.</td><td><strong>Ưu điểm</strong>: Có số liệu thực nghiệm chứng minh FL đạt độ chính xác ~99% so với mô hình tập trung.<br><strong>Nhược điểm</strong>: Mới thử nghiệm trên một loại bệnh lý cụ thể (não).</td><td><strong>Rất cao (5/5)</strong></td></tr><tr><td>3</td><td><strong>Brisimi et al. (2018)</strong><br>Federated learning of predictive models from federated EHR</td><td>Tạp chí khoa học</td><td>- Tác giả: Nhóm nghiên cứu ĐH Boston.<br>- Cơ quan XB: Int. J. of Medical Informatics (Elsevier - Q1).<br>- PP: Thực nghiệm thuật toán sSVM trên bệnh án điện tử.<br>- Trích dẫn: Cao.<br>- Cập nhật: 2018.</td><td><strong>Ưu điểm</strong>: Giải quyết trực tiếp bài toán trên dữ liệu thực tế (EHR).<br><strong>Nhược điểm</strong>: Thuật toán SVM cổ điển có thể yếu thế hơn Deep Learning khi dữ liệu quá lớn.</td><td><strong>Cao (4/5)</strong></td></tr><tr><td>4</td><td><strong>Kaissis et al. (2020)</strong><br>Secure, privacy-preserving and federated ML in medical imaging</td><td>Tạp chí khoa học</td><td>- Tác giả: ĐH kỹ thuật Munich.<br>- Cơ quan XB: Nature Machine Intelligence (Q1).<br>- PP: Phân tích kỹ thuật mật mã kết hợp AI.<br>- Trích dẫn: &gt;800 lượt.<br>- Cập nhật: 2020.</td><td><strong>Ưu điểm</strong>: Giải quyết triệt để rủi ro lộ trọng số của FL bằng cách tích hợp mã hóa đồng hình.<br><strong>Nhược điểm</strong>: Phức tạp, chi phí tính toán phần cứng khổng lồ.</td><td><strong>Rất cao (5/5)</strong></td></tr><tr><td>5</td><td><strong>Nguyen et al. (2022)</strong><br>Federated learning for smart healthcare: A survey</td><td>Tạp chí khoa học</td><td>- Tác giả: Nhóm nghiên cứu đa quốc gia.<br>- Cơ quan XB: ACM Computing Surveys (Q1).<br>- PP: Khảo sát, tổng hợp hệ thống IoMT.<br>- Trích dẫn: Cao.<br>- Cập nhật: 2022 (Rất mới).</td><td><strong>Ưu điểm</strong>: Tính cập nhật cực cao, tích hợp FL với nền tảng vạn vật kết nối y tế (IoMT).<br><strong>Nhược điểm</strong>: Chủ yếu là lý thuyết kiến trúc mạng tổng thể.</td><td><strong>Rất cao (5/5)</strong></td></tr><tr><td>6</td><td><strong>Yang, Q. et al. (2020)</strong><br>Federated learning. Sách chuyên khảo</td><td>Sách chuyên khảo</td><td>- Tác giả: Các kỹ sư hàng đầu về AI (WeBank).<br>- Cơ quan XB: Morgan & Claypool Publishers.<br>- PP: Hệ thống hóa lý thuyết học máy.<br>- Trích dẫn: Rất cao.<br>- Cập nhật: 2020.</td><td><strong>Ưu điểm</strong>: Là cuốn sách \"giáo khoa\" chuẩn mực nhất để hiểu rõ cơ chế toán học của FL.<br><strong>Nhược điểm</strong>: Nặng về lý thuyết xác suất và tối ưu hóa thuật toán.</td><td><strong>Cao (4/5)</strong></td></tr><tr><td>7</td><td><strong>Bohr & Memarzadeh (2020)</strong><br>Artificial Intelligence in healthcare</td><td>Sách chuyên khảo</td><td>- Tác giả: Chuyên gia công nghệ sinh học.<br>- Cơ quan XB: Academic Press.<br>- PP: Phân tích tình huống (Case study) y khoa.<br>- Trích dẫn: Cao.<br>- Cập nhật: 2020.</td><td><strong>Ưu điểm</strong>: Dễ tiếp cận, liên kết chặt chẽ giữa IT và ứng dụng lâm sàng y khoa.<br><strong>Nhược điểm</strong>: Nội dung về Học máy liên kết chỉ chiếm một chương nhỏ.</td><td><strong>Cao (4/5)</strong></td></tr><tr><td>8</td><td><strong>Google AI Blog (2017)</strong><br>Federated Learning: Collaborative Machine Learning...</td><td>Website</td><td>- Tác giả: Kỹ sư Brendan McMahan (Google).<br>- Cơ quan XB: Trang thông tin chính thức Google AI.<br>- PP: Báo cáo kỹ thuật công nghệ mới.<br>- Trích dẫn: Không áp dụng.<br>- Cập nhật: 2017 (bài gốc).</td><td><strong>Ưu điểm</strong>: Giải thích trực quan cơ chế gốc rễ của hệ thống FL bằng hình ảnh dễ hiểu.<br><strong>Nhược điểm</strong>: Nội dung hướng tới công chúng, độ sâu học thuật ở mức vừa phải.</td><td><strong>Trung bình (3/5)</strong></td></tr><tr><td>9</td><td><strong>IBM (2023)</strong><br>What is federated learning?</td><td>Website</td><td>- Tác giả: Ban biên tập IBM.<br>- Cơ quan XB: Nền tảng kiến thức IBM.<br>- PP: Tổng hợp khái niệm kinh doanh/kỹ thuật.<br>- Trích dẫn: Không áp dụng.<br>- Cập nhật: 2023.</td><td><strong>Ưu điểm</strong>: Cập nhật các use-case thực tế của FL tại các doanh nghiệp y tế hiện nay.<br><strong>Nhược điểm</strong>: Có yếu tố định hướng thương mại hóa sản phẩm IBM.</td><td><strong>Trung bình (3/5)</strong></td></tr><tr><td>10</td><td><strong>NVIDIA (2021)</strong><br>NVIDIA Clara Federated Learning</td><td>Website</td><td>- Tác giả: Kỹ sư NVIDIA.<br>- Cơ quan XB: NVIDIA Developer.<br>- PP: Tài liệu hướng dẫn kỹ thuật (Documentation).<br>- Trích dẫn: Không áp dụng.<br>- Cập nhật: 2021.</td><td><strong>Ưu điểm</strong>: Cung cấp thông tin thực tế về cách triển khai mô hình FL bằng phần cứng GPU cụ thể trong bệnh viện.<br><strong>Nhược điểm</strong>: Tập trung chủ yếu vào công nghệ độc quyền của NVIDIA.</td><td><strong>Trung bình (3/5)</strong></td></tr></tbody></table></div>"
     }
   ],
-  "driveLink": "https://drive.google.com/file/d/1-p7GDCHGGQtefg0MxSGXFLroyoV4lTdO/view?usp=drive_link"
+  "driveLink": "https://drive.google.com/file/d/1LqC6-yR-XflnKyuNDnFHWrAmCefzUkta/view?usp=sharing"
 }

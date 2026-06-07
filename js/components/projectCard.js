@@ -34,30 +34,25 @@ export function renderProjectCard(project, index) {
       <div class="project-card__neon-bg"></div>
 
       <div class="project-card__inner">
-        <div class="project-card__main">
-          <div class="project-card__icon">${project.icon || '📄'}</div>
-          <div class="project-card__info">
-            <h3 class="project-card__title">${project.title}</h3>
-            <p class="project-card__subtitle">${project.subtitle || ''}</p>
-          </div>
-          <div class="project-card__status">
-            <span class="project-card__badge project-card__badge--${status.class}">
-              ${status.label}
-            </span>
-            <span class="project-card__id">Bài tập ${project.id}</span>
-          </div>
+        <div class="project-card__header">
+          <span class="project-card__id">Bài tập ${project.id}</span>
+          <span class="project-card__badge project-card__badge--${status.class}">
+            ${status.label}
+          </span>
         </div>
 
-        <div class="project-card__drawer">
-          <div class="project-card__drawer-content">
-            <p class="project-card__description">${project.description}</p>
-            <div class="project-card__tags">${tags}</div>
-            <div class="project-card__footer">
-              <span class="project-card__link">
-                Mở bài tập <span>→</span>
-              </span>
-            </div>
-          </div>
+        <div class="project-card__body">
+          <div class="project-card__icon">${project.icon || '📄'}</div>
+          <h3 class="project-card__title">${project.title}</h3>
+          <p class="project-card__subtitle">${project.subtitle || ''}</p>
+          <p class="project-card__description">${project.description}</p>
+          <div class="project-card__tags">${tags}</div>
+        </div>
+
+        <div class="project-card__footer">
+          <span class="project-card__link">
+            Khám phá bài học <span>→</span>
+          </span>
         </div>
       </div>
     </div>
@@ -147,21 +142,26 @@ export function renderProjectDetail(project) {
   return `
     <div class="project-detail">
       <button class="project-detail__back" id="project-back">
-        ← Quay lại danh sách
+        <span class="back-arrow">←</span> Quay lại danh sách
       </button>
       <div class="project-detail__header">
-        <div class="project-detail__meta">
-          <span class="tag">Bài tập ${project.id}</span>
-          ${tags}
+        <div class="project-detail__header-main">
+          <div class="project-detail__meta">
+            <span class="tag">Bài tập ${project.id}</span>
+            ${tags}
+          </div>
+          <h1 class="project-detail__title">${project.title}</h1>
+          <p class="project-detail__description">${project.description}</p>
+          ${project.driveLink ? `
+          <a href="${project.driveLink}" target="_blank" rel="noopener noreferrer" 
+             class="btn btn--primary drive-button">
+            <span class="drive-button__icon">📄</span> Xem tài liệu đầy đủ (Google Drive)
+          </a>
+          ` : ''}
         </div>
-        <h1 class="project-detail__title">${project.title}</h1>
-        <p class="project-detail__description">${project.description}</p>
-        ${project.driveLink ? `
-        <a href="${project.driveLink}" target="_blank" rel="noopener noreferrer" 
-           class="btn btn--primary" style="margin-top: var(--space-6); display: inline-flex;">
-          📄 Xem tài liệu đầy đủ (Google Drive)
-        </a>
-        ` : ''}
+        <div class="project-detail__header-icon">
+          ${project.icon || '📄'}
+        </div>
       </div>
       <div class="project-content">
         ${contentHtml}

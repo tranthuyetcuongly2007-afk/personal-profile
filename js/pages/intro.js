@@ -237,7 +237,7 @@ export function renderIntroPage() {
         <div class="about-grid">
           <div class="about__avatar-wrapper reveal reveal--left">
             <div class="about__avatar-glow"></div>
-            <img class="about__avatar" src="assets/images/profilepic.jpg" alt="Trần Văn Thuyết">
+            <img class="about__avatar" src="assets/images/profilepic.png" alt="Trần Văn Thuyết">
           </div>
           <div class="about__info">
             <p class="about__bio reveal">${PERSONAL_INFO.bio}</p>
