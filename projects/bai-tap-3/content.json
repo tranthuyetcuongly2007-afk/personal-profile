@@ -53,8 +53,23 @@
     },
     {
       "type": "image",
-      "src": "assets/img-000.png",
-      "caption": "Thử nghiệm Tác vụ 1 với các cấp độ Prompt"
+      "src": "assets/Picture1.png",
+      "caption": "Thử nghiệm Prompt cơ bản (Tác vụ 1)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture4.png",
+      "caption": "Kết quả thử nghiệm Prompt cơ bản (Tác vụ 1)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture5.png",
+      "caption": "Kết quả thử nghiệm Prompt cải tiến (Tác vụ 1)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture6.png",
+      "caption": "Kết quả thử nghiệm Prompt nâng cao (Tác vụ 1)"
     },
     {
       "type": "heading",
@@ -72,8 +87,18 @@
     },
     {
       "type": "image",
-      "src": "assets/img-003.png",
-      "caption": "Thử nghiệm Tác vụ 2 với các cấp độ Prompt"
+      "src": "assets/Picture7.png",
+      "caption": "Thử nghiệm Prompt cơ bản (Tác vụ 2)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture8.png",
+      "caption": "Thử nghiệm Prompt cải tiến (Tác vụ 2)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture13.png",
+      "caption": "Kết quả thử nghiệm Prompt nâng cao (Tác vụ 2)"
     },
     {
       "type": "heading",
@@ -91,8 +116,18 @@
     },
     {
       "type": "image",
-      "src": "assets/img-006.png",
-      "caption": "Thử nghiệm Tác vụ 3 với các cấp độ Prompt"
+      "src": "assets/Picture10.png",
+      "caption": "Thử nghiệm Prompt cơ bản (Tác vụ 3)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture11.png",
+      "caption": "Thử nghiệm Prompt cải tiến (Tác vụ 3)"
+    },
+    {
+      "type": "image",
+      "src": "assets/Picture14.png",
+      "caption": "Kết quả thử nghiệm Prompt nâng cao (Tác vụ 3)"
     },
     {
       "type": "heading",
@@ -108,7 +143,7 @@
     },
     {
       "type": "image",
-      "src": "assets/img-008.png",
+      "src": "assets/Picture15.png",
       "caption": "Bảng so sánh tổng hợp chất lượng kết quả đầu ra"
     },
     {
